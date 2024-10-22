@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path" : "pages/home/home",
+			"style" : 
+			{
+				"navigationBarTitleText" : "宠物商城"
+			}
+		},
+		{
+			"path" : "pages/shop/shop",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/chat/chat",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/mine/mine",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录/注册"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"list": [{
+			"pagePath":"pages/home/home",
+			"text":"首页",
+			"iconPath":"/static/logo.png"
+			// "selectedIconPath":"/static/home_active@2x.png"
+		},{
+			"pagePath":"pages/shop/shop",
+			"text":"商城",
+			"iconPath":"/static/logo.png"
+			// "selectedIconPath":"/static/shop_active@2x.png"
+		},{
+			"pagePath":"pages/chat/chat",
+			"text":"留言",
+			"iconPath":"/static/logo.png"
+			// "selectedIconPath":"/static/chat_active@2x.png"
+		},{
+			"pagePath":"pages/mine/mine",
+			"text":"我的",
+			"iconPath":"/static/logo.png"
+			// "selectedIconPath":"/static/mine_active@2x.png"
+		}]
+	}
+}
